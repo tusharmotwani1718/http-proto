@@ -1,0 +1,13 @@
+{
+  "name": "tcp-client",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "tcp:client": "bun ./client.js"
+  }
+}
